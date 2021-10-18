@@ -9,12 +9,12 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features ="src/test/java/feature"
 		,glue= {"stepDefinition","hooks"},
-		dryRun = true,
-		monochrome=true,
-		//tags = {"@ReturnID"or "@OrderID" or "@CustomerName", "@ProductName",  "@ModelName", "@ReturnStatus", "@TabelView"},
-		//tags= {"@TabelView"},
+		//dryRun = true,
+		//monochrome=true,
+		//tags = {"@ReturnID"or "@OrderID" or "@CustomerName", "@ProductName",  "@ModelName", "@ReturnStatus", "@TabelView", @Pagination, "@Checkbox",  "@DateAdded" , "@DateModified" }
+		//tags= {"@EditReturnProduct"},
 		tags= {"~@Ignore"},
-		plugin= {"pretty", "html:target/cucumber-report"}
+		plugin= {"pretty"/*, "html:target/Retail-Website-HTML-report"*/}
 		)
 
 public class TestRunner {

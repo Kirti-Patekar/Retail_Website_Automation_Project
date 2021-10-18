@@ -95,35 +95,49 @@ Feature: Retail website
       | ValidReturnStatusInput | InvalidReturnStatusInput |
       | Pending                | +123ABC                  |
 
-  #@DateAdded
-  #Scenario Outline: Validate DateAdded field
-  #Given Admin is on Product Return Page
-  #When Admin select one option "<ValidDateAddedInput>" from the Calender
-  #Then Verify if Admin is able to see selected date "<ValidDateAddedInput>" in Dateadded field
-  #And Admin Clicks on filter button
-  #Then Verify if Admin is able to see record based on the given input "<ValidDateAddedInput>" in Dateadded field
-  #When Admin select one option "<InvalidDateAddedInput>" from the Calender
-  #Then Verify if Admin is able to see selected date "<InvalidDateAddedInput>" in Dateadded field
-  #And Admin Clicks on filter button
-  #Then Verify if Admin is not able to see any record
-  #Then Verify if Admin is able to see record based on the selected option "<ValidReturnStatusInput>" in ReturnStatus
-  #When Select any date "<DateBefore>" before current date
-  #//div/div/table/tbody/tr/td[contains(text(),'11')]
-  #Then Verify if Admin is able to see selected option "<PreCurrentDateInput>" in ReturnStatus
-  #Then Verify if Admin is able to see selected option "<PostCurrentDateInput>" in ReturnStatus
-  #And Admin Clicks on filter button
-  #Then Verify if Admin is able to see record based on the selected option "<ValidReturnStatusInput>" in ReturnStatus
-  #When Admin enters intial of "<ValidReturnStatusInput>"
-  #And Clicks on enter button
-  #Then Verify if Admin is able to see selected option "<ValidReturnStatusInput>" in ReturnStatus if initial letter is entered
-  #Examples:
-  #| PreCurrentDateInput | PostCurrentDateInput |
-  #| 11                | 30                |
-  #@FilterRecords
-  #Scenario: Validate Filter button field
-  #Given Admin is on Product Return Page
-  #When Admin Clicks on filter button
-  #Then Verify if user gets all records in the table
+  @DateAdded
+  Scenario Outline: Validate DateAdded field
+    Given Admin is on Product Return Page
+    When Admin enter invalid input "<InvalidDateInput>" in DateAdded field
+    And Admin Clicks on filter button
+    Then Verify if Admin is not able to see any record
+    When Admin enter valid input "<ValidDateInput>" in DateAdded field
+    And Admin Clicks on filter button
+    Then Verify if Admin is able to see record based on the given input "<ValidDateInput>" in DateAdded field
+
+    Examples: 
+      | ValidDateInput | InvalidDateInput |
+      | 2021-10-11     | ABcd             |
+
+  @DateModified
+  Scenario Outline: Validate DateModified field
+    Given Admin is on Product Return Page
+    When Admin enter invalid input "<InvalidDateInput>" in DateModified field
+    And Admin Clicks on filter button
+    Then Verify if Admin is not able to see any record
+    When Admin enter valid input "<ValidDateInput>" in DateModified field
+    And Admin Clicks on filter button
+    Then Verify if Admin is able to see record based on the given input "<ValidDateInput>" in DateModified field
+
+    Examples: 
+      | ValidDateInput | InvalidDateInput |
+      | 2021-10-11     | ABcd             |
+
+  
+  @Checkbox
+  Scenario Outline: Verify checkbox
+    Given Admin is on Product Return Page
+    When Admin clicks on the checkbox of a row "<row>"
+    Then Verify if the checkbox of row "<row>" is checked
+    When Admin clicks on the checkbox of a row "<row>"
+    Then Verify if the checkbox of row "<row>" is unchecked
+    When Admin clicks on the checkbox of the table header
+    Then Verify if the checkboxes in every row is checked
+
+    Examples: 
+      | row |
+      |   7 |
+
   @TabelView
   Scenario Outline: Verify Tabel view
     Given Admin is on Product Return Page
@@ -165,3 +179,22 @@ Feature: Retail website
     Examples: 
       | column1 | column2   | column3  | column4  | column5 | column6 | column7 | column8    | column9       | column10 |
       |         | Return ID | Order ID | Customer | Product | Model   | Status  | Date Added | Date Modified | Action   |
+
+  @EditReturnProduct
+  Scenario Outline: Validate EditReturnProduct field
+    Given Admin is on Product Return Page
+    When Admin clicks on edit option of a row "<row>"
+    Then Verify if Admin is on Edit Product Return Page
+    When Admin enter "<OrderID>","<FirstName>","<LastName>","<Email>","<Telephone>","<Product>","<Model>"
+    And Admin clicks on save button
+    Then Verify if admin is navigated to Product Return Page
+
+    Examples: 
+      | row | OrderID | FirstName | LastName | Email               | Telephone  | Product | Model  |
+      |   5 |     678 | Alpha     | Bens     | alphabens@gmail.com | 0222789656 | Phone   | Pocof1 |
+  
+  @Pagination
+  Scenario: Verify Pagination
+    Given Admin is on Product Return Page
+    Then Verify if their is pagination in the webpage
+    Then Verify if their is pagination after every 25 records

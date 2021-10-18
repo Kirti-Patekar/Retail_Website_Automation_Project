@@ -67,7 +67,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on Login page",
@@ -77,7 +77,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter username and password",
@@ -87,7 +87,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Login button",
@@ -97,7 +97,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is successfully logged in",
@@ -107,7 +107,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "click on menu",
@@ -117,7 +117,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.click_on_menu()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Sales dropdown",
@@ -127,7 +127,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Return option",
@@ -137,7 +137,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin in on Product Return page",
@@ -147,7 +147,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate ReturnID field",
@@ -167,7 +167,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter valid input \"380\" into ReturnID",
@@ -177,7 +177,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_valid_input_into_ReturnID(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -187,7 +187,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is able to see record based on the given input \"380\" in ReturnID",
@@ -197,7 +197,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_able_to_see_record_based_on_the_given_input_in_ReturnID(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter invalid input \"ABC\" into ReturnID",
@@ -207,7 +207,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_invalid_input_into_ReturnID(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -217,7 +217,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is not able to see any record",
@@ -227,10 +227,10 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_not_able_to_see_any_record()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "name": "Validate OrderID field",
@@ -295,7 +295,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on Login page",
@@ -305,7 +305,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter username and password",
@@ -315,7 +315,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Login button",
@@ -325,7 +325,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is successfully logged in",
@@ -335,7 +335,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "click on menu",
@@ -345,7 +345,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.click_on_menu()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Sales dropdown",
@@ -355,7 +355,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Return option",
@@ -365,7 +365,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin in on Product Return page",
@@ -375,7 +375,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate OrderID field",
@@ -395,7 +395,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter valid input \"450\" into OrderID",
@@ -405,7 +405,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_valid_input_into_OrderID(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -415,7 +415,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is able to see record based on the given input \"450\" in OrderID",
@@ -425,7 +425,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_able_to_see_record_based_on_the_given_input_in_OrderID(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter invalid input \"ABC\" into OrderID",
@@ -435,7 +435,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_invalid_input_into_OrderID(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -445,7 +445,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is not able to see any record",
@@ -455,10 +455,10 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_not_able_to_see_any_record()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "name": "Validate CustomerName field",
@@ -523,7 +523,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on Login page",
@@ -533,7 +533,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter username and password",
@@ -543,7 +543,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Login button",
@@ -553,7 +553,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is successfully logged in",
@@ -563,7 +563,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "click on menu",
@@ -573,7 +573,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.click_on_menu()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Sales dropdown",
@@ -583,7 +583,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Return option",
@@ -593,7 +593,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin in on Product Return page",
@@ -603,7 +603,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate CustomerName field",
@@ -623,7 +623,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter valid input \"Vaibhavi Bagat\" into CustomerName",
@@ -633,7 +633,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_valid_input_into_CustomerName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -643,7 +643,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is able to see record based on the given input \"Vaibhavi Bagat\" in CustomerName",
@@ -653,7 +653,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_able_to_see_record_based_on_the_given_input_in_CustomerName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter invalid input \"+123ABC\" into CustomerName",
@@ -663,7 +663,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_invalid_input_into_CustomerName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -673,7 +673,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is not able to see any record",
@@ -683,10 +683,10 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_not_able_to_see_any_record()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "name": "Validate ProductName field",
@@ -751,7 +751,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on Login page",
@@ -761,7 +761,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter username and password",
@@ -771,7 +771,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Login button",
@@ -781,7 +781,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is successfully logged in",
@@ -791,7 +791,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "click on menu",
@@ -801,7 +801,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.click_on_menu()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Sales dropdown",
@@ -811,7 +811,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Return option",
@@ -821,7 +821,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin in on Product Return page",
@@ -831,7 +831,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate ProductName field",
@@ -851,7 +851,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter valid input \"Laptop\" into ProductName",
@@ -861,7 +861,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_valid_input_into_ProductName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -871,7 +871,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is able to see record based on the given input \"Laptop\" in ProductName",
@@ -881,7 +881,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_able_to_see_record_based_on_the_given_input_in_ProductName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter invalid input \"+123ABC\" into ProductName",
@@ -891,7 +891,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_invalid_input_into_ProductName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -901,7 +901,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is not able to see any record",
@@ -911,10 +911,10 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_not_able_to_see_any_record()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "name": "Validate ModelName field",
@@ -979,7 +979,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on Login page",
@@ -989,7 +989,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter username and password",
@@ -999,7 +999,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Login button",
@@ -1009,7 +1009,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is successfully logged in",
@@ -1019,7 +1019,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "click on menu",
@@ -1029,7 +1029,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.click_on_menu()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Sales dropdown",
@@ -1039,7 +1039,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Return option",
@@ -1049,7 +1049,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin in on Product Return page",
@@ -1059,7 +1059,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate ModelName field",
@@ -1079,7 +1079,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter valid input \"AP001\" into ModelName",
@@ -1089,7 +1089,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_valid_input_into_ModelName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -1099,7 +1099,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is able to see record based on the given input \"AP001\" in ModelName",
@@ -1109,7 +1109,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_able_to_see_record_based_on_the_given_input_in_ModelName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter invalid input \"+123ABC\" into ModelName",
@@ -1119,7 +1119,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_invalid_input_into_ModelName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -1129,7 +1129,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is not able to see any record",
@@ -1139,10 +1139,10 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_not_able_to_see_any_record()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "name": "Validate ReturnStatus field",
@@ -1211,7 +1211,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on Login page",
@@ -1221,7 +1221,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter username and password",
@@ -1231,7 +1231,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Login button",
@@ -1241,7 +1241,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is successfully logged in",
@@ -1251,7 +1251,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "click on menu",
@@ -1261,7 +1261,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.click_on_menu()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Sales dropdown",
@@ -1271,7 +1271,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Return option",
@@ -1281,7 +1281,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin in on Product Return page",
@@ -1291,7 +1291,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Validate ReturnStatus field",
@@ -1311,7 +1311,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin select one option \"Pending\" from the ReturnStatus dropdown",
@@ -1321,7 +1321,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_select_one_option_from_the_ReturnStatus_dropdown(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is able to see selected option \"Pending\" in ReturnStatus",
@@ -1331,7 +1331,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_able_to_see_selected_option_in_ReturnStatus(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -1341,7 +1341,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is able to see record based on the selected option \"Pending\" in ReturnStatus",
@@ -1351,7 +1351,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_able_to_see_record_based_on_the_selected_option_in_ReturnStatus(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enters intial of \"Pending\"",
@@ -1361,7 +1361,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enters_intial_of(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Clicks on enter button",
@@ -1371,7 +1371,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.clicks_on_enter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is able to see selected option \"Pending\" in ReturnStatus if initial letter is entered",
@@ -1381,10 +1381,692 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_able_to_see_selected_option_in_ReturnStatus_if_initial_letter_is_entered(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Validate DateAdded field",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@DateAdded"
+    }
+  ]
+});
+formatter.step({
+  "name": "Admin is on Product Return Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "Admin enter invalid input \"\u003cInvalidDateInput\u003e\" in DateAdded field",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Admin Clicks on filter button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Verify if Admin is not able to see any record",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "Admin enter valid input \"\u003cValidDateInput\u003e\" in DateAdded field",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Admin Clicks on filter button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Verify if Admin is able to see record based on the given input \"\u003cValidDateInput\u003e\" in DateAdded field",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "ValidDateInput",
+        "InvalidDateInput"
+      ]
+    },
+    {
+      "cells": [
+        "2021-10-11",
+        "ABcd"
+      ]
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin is on Login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin enter username and password",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin is successfully logged in",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on menu",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.click_on_menu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Sales dropdown",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Return option",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin in on Product Return page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate DateAdded field",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@DateAdded"
+    }
+  ]
+});
+formatter.step({
+  "name": "Admin is on Product Return Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin enter invalid input \"ABcd\" in DateAdded field",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_enter_invalid_input_in_DateAdded_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin Clicks on filter button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin is not able to see any record",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_not_able_to_see_any_record()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin enter valid input \"2021-10-11\" in DateAdded field",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_enter_valid_input_in_DateAdded_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin Clicks on filter button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin is able to see record based on the given input \"2021-10-11\" in DateAdded field",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_able_to_see_record_based_on_the_given_input_in_DateAdded_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Validate DateModified field",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@DateModified"
+    }
+  ]
+});
+formatter.step({
+  "name": "Admin is on Product Return Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "Admin enter invalid input \"\u003cInvalidDateInput\u003e\" in DateModified field",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Admin Clicks on filter button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Verify if Admin is not able to see any record",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "Admin enter valid input \"\u003cValidDateInput\u003e\" in DateModified field",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Admin Clicks on filter button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Verify if Admin is able to see record based on the given input \"\u003cValidDateInput\u003e\" in DateModified field",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "ValidDateInput",
+        "InvalidDateInput"
+      ]
+    },
+    {
+      "cells": [
+        "2021-10-11",
+        "ABcd"
+      ]
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin is on Login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin enter username and password",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin is successfully logged in",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on menu",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.click_on_menu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Sales dropdown",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Return option",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin in on Product Return page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate DateModified field",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@DateModified"
+    }
+  ]
+});
+formatter.step({
+  "name": "Admin is on Product Return Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin enter invalid input \"ABcd\" in DateModified field",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_enter_invalid_input_in_DateModified_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin Clicks on filter button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin is not able to see any record",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_not_able_to_see_any_record()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin enter valid input \"2021-10-11\" in DateModified field",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_enter_valid_input_in_DateModified_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin Clicks on filter button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin is able to see record based on the given input \"2021-10-11\" in DateModified field",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_able_to_see_record_based_on_the_given_input_in_DateModified_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Verify checkbox",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Checkbox"
+    }
+  ]
+});
+formatter.step({
+  "name": "Admin is on Product Return Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "Admin clicks on the checkbox of a row \"\u003crow\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Verify if the checkbox of row \"\u003crow\u003e\" is checked",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "Admin clicks on the checkbox of a row \"\u003crow\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Verify if the checkbox of row \"\u003crow\u003e\" is unchecked",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "Admin clicks on the checkbox of the table header",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Verify if the checkboxes in every row is checked",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "row"
+      ]
+    },
+    {
+      "cells": [
+        "7"
+      ]
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin is on Login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin enter username and password",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin is successfully logged in",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on menu",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.click_on_menu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Sales dropdown",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Return option",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin in on Product Return page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Verify checkbox",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Checkbox"
+    }
+  ]
+});
+formatter.step({
+  "name": "Admin is on Product Return Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on the checkbox of a row \"7\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_the_checkbox_of_a_row(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if the checkbox of row \"7\" is checked",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_the_checkbox_of_row_is_checked(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on the checkbox of a row \"7\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_the_checkbox_of_a_row(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if the checkbox of row \"7\" is unchecked",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_the_checkbox_of_row_is_unchecked(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on the checkbox of the table header",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_the_checkbox_of_the_table_header()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if the checkboxes in every row is checked",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_the_checkboxes_in_every_row_is_checked()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "name": "Verify Tabel view",
@@ -1577,7 +2259,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin is on Login page",
@@ -1587,7 +2269,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin enter username and password",
@@ -1597,7 +2279,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Login button",
@@ -1607,7 +2289,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin is successfully logged in",
@@ -1617,7 +2299,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "click on menu",
@@ -1627,7 +2309,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.click_on_menu()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Sales dropdown",
@@ -1637,7 +2319,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on Return option",
@@ -1647,7 +2329,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Admin in on Product Return page",
@@ -1657,7 +2339,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "Verify Tabel view",
@@ -1677,7 +2359,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin Clicks on filter button",
@@ -1687,7 +2369,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_Clicks_on_filter_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if admin is able to see all columns \"\", \"Return ID\", \"Order ID\", \"Customer\", \"Product\", \"Model\", \"Status\", \"Date Added\", \"Date Modified\" and \"Action\" of the tabel",
@@ -1697,7 +2379,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_admin_is_able_to_see_all_columns_and_of_the_tabel(String,String,String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Return ID",
@@ -1707,7 +2389,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Return_ID()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Return ID column get sorted in Ascending Order",
@@ -1717,7 +2399,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Return_ID_column_get_sorted_in_Ascending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Return ID",
@@ -1727,7 +2409,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Return_ID()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Return ID column get sorted in Descending Order",
@@ -1737,7 +2419,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Return_ID_column_get_sorted_in_Descending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Order ID",
@@ -1747,7 +2429,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Order_ID()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Order ID column get sorted in Ascending Order",
@@ -1757,7 +2439,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Order_ID_column_get_sorted_in_Ascending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Order ID",
@@ -1767,7 +2449,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Order_ID()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Order ID column get sorted in Descending Order",
@@ -1777,7 +2459,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Order_ID_column_get_sorted_in_Descending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Customer",
@@ -1787,7 +2469,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Customer()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Customer column get sorted in Ascending Order",
@@ -1797,7 +2479,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Customer_column_get_sorted_in_Ascending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Customer",
@@ -1807,7 +2489,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Customer()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Customer column get sorted in Descending Order",
@@ -1817,7 +2499,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Customer_column_get_sorted_in_Descending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Product",
@@ -1827,7 +2509,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Product()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Product column get sorted in Ascending Order",
@@ -1837,7 +2519,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Product_column_get_sorted_in_Ascending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Product",
@@ -1847,7 +2529,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Product()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Product column get sorted in Descending Order",
@@ -1857,7 +2539,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Product_column_get_sorted_in_Descending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Model",
@@ -1867,7 +2549,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Model()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Model column get sorted in Ascending Order",
@@ -1877,7 +2559,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Model_column_get_sorted_in_Ascending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Model",
@@ -1887,7 +2569,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Model()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Model column get sorted in Descending Order",
@@ -1897,7 +2579,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Model_column_get_sorted_in_Descending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Status",
@@ -1907,7 +2589,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Status()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Status column get sorted in Ascending Order",
@@ -1917,7 +2599,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Status_column_get_sorted_in_Ascending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Status",
@@ -1927,7 +2609,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Status()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Status column get sorted in Descending Order",
@@ -1937,7 +2619,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Status_column_get_sorted_in_Descending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Date Added",
@@ -1947,7 +2629,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Date_Added()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Date Added column get sorted in Ascending Order",
@@ -1957,7 +2639,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Date_Added_column_get_sorted_in_Ascending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Date Added",
@@ -1967,7 +2649,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Date_Added()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Date Added column get sorted in Descending Order",
@@ -1977,7 +2659,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Date_Added_column_get_sorted_in_Descending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Date Modified",
@@ -1987,7 +2669,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Date_Modified()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Date Modified column get sorted in Ascending Order",
@@ -1997,7 +2679,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Date_Modified_column_get_sorted_in_Ascending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Admin clicks on table header column Date Modified",
@@ -2007,7 +2689,7 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.admin_clicks_on_table_header_column_Date_Modified()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Verify if Date Modified column get sorted in Descending Order",
@@ -2017,9 +2699,366 @@ formatter.match({
   "location": "RetailWebsiteStepDefinition.verify_if_Date_Modified_column_get_sorted_in_Descending_Order()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Validate EditReturnProduct field",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@EditReturnProduct"
+    }
+  ]
+});
+formatter.step({
+  "name": "Admin is on Product Return Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "Admin clicks on edit option of a row \"\u003crow\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Verify if Admin is on Edit Product Return Page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "Admin enter \"\u003cOrderID\u003e\",\"\u003cFirstName\u003e\",\"\u003cLastName\u003e\",\"\u003cEmail\u003e\",\"\u003cTelephone\u003e\",\"\u003cProduct\u003e\",\"\u003cModel\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Admin clicks on save button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Verify if admin is navigated to Product Return Page",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "row",
+        "OrderID",
+        "FirstName",
+        "LastName",
+        "Email",
+        "Telephone",
+        "Product",
+        "Model"
+      ]
+    },
+    {
+      "cells": [
+        "5",
+        "678",
+        "Alpha",
+        "Bens",
+        "alphabens@gmail.com",
+        "0222789656",
+        "Phone",
+        "Pocof1"
+      ]
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin is on Login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin enter username and password",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin is successfully logged in",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on menu",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.click_on_menu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Sales dropdown",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Return option",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin in on Product Return page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate EditReturnProduct field",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@EditReturnProduct"
+    }
+  ]
+});
+formatter.step({
+  "name": "Admin is on Product Return Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on edit option of a row \"5\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_edit_option_of_a_row(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin is on Edit Product Return Page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_Admin_is_on_Edit_Product_Return_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin enter \"678\",\"Alpha\",\"Bens\",\"alphabens@gmail.com\",\"0222789656\",\"Phone\",\"Pocof1\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_enter(String,String,String,String,String,String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on save button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_save_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if admin is navigated to Product Return Page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_admin_is_navigated_to_Product_Return_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin is on Login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_is_on_Login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin enter username and password",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_enter_username_and_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin is successfully logged in",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_admin_is_successfully_logged_in()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on menu",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.click_on_menu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Sales dropdown",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Sales_dropdown()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Admin clicks on Return option",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_clicks_on_Return_option()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if Admin in on Product Return page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_Admin_in_on_Product_Return_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Verify Pagination",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Pagination"
+    }
+  ]
+});
+formatter.step({
+  "name": "Admin is on Product Return Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.admin_is_on_Product_Return_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if their is pagination in the webpage",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_their_is_pagination_in_the_webpage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Verify if their is pagination after every 25 records",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RetailWebsiteStepDefinition.verify_if_their_is_pagination_after_every_records(Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
 });
 });
